@@ -114,9 +114,9 @@ li {
 .devour {
   background-image: linear-gradient(purple, lime, purple);
   box-shadow: 10px 10px 10px black;
-  width: 50%;
+  width: 30%;
   border-radius: 11px;
-  font-size: 30px;
+  font-size: 20px;
   margin: 0 auto;
   /* display: inline-block; */
   text-align: center;
