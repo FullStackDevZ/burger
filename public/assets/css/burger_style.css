@@ -2,6 +2,13 @@ html {
   background-color: #FFC04C;
 }
 
+.center {
+  margin: auto;
+  width: 20%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 body {
   width: 75%;
  margin: 0 auto; 
@@ -10,11 +17,6 @@ text-align: center;
  min-height: 100vh;
  flex-direction: column;
  background-color: white;
-}
-
-#cute_burger {
-  display: block;
-   margin: auto;
 }
 
 h1 {
@@ -29,12 +31,12 @@ h1 {
   font-weight: normal;
   font-size: 30px;
   text-align: center;
-
   border-radius: 25px;
   width: 60%;
   margin: 10px;
   padding: 7px;
   background-image: linear-gradient(lime, red,lime);
+  box-shadow: 10px 10px 10px black;
   border: none;
 }
 
@@ -52,6 +54,7 @@ h1 {
   margin: 10px;
   padding: 7px;
   width: 60%;
+  box-shadow: 10px 10px 10px black;
   background-image: linear-gradient(red, rgb(173, 0, 173), orangered);
 }
 
@@ -108,22 +111,25 @@ li {
   margin-bottom: 5px;
 }
 
-.headings {
-  background-image: linear-gradient(red, lime, red);
+.devour {
+  background-image: linear-gradient(purple, lime, purple);
   box-shadow: 10px 10px 10px black;
+  width: 50%;
   border-radius: 11px;
+  font-size: 30px;
   margin: 0 auto;
-  width: 960px;
-  height: 50px;
   /* display: inline-block; */
   text-align: center;
   padding: 5px;
- 
 }
 
+.devour:hover {
+  color: yellow;
+}
 
 #burger {
-  font-size: 37px;
+  font-size: 30px;
+  box-shadow: 10px 10px 10px black;
   color: yellow;
   padding: 15px;
   font-weight: bolder;

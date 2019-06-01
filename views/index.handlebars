@@ -3,7 +3,10 @@
 <main>
   <div class="container">
     <div class="row">
-      <div class="col s6">
+      <div class="col s5">
+        Burger Menu:
+        <br><br>
+        
         {{#each burgers}}
           {{#unless this.devoured}}
             <div>
@@ -15,7 +18,15 @@
         {{/each}}
       </div>
 
-      <div class="col s6">
+      <div class="col s2">
+         <form action="/burgers" method="POST">
+      <button type="submit" class="devour">+DEVOUR</button>
+    </form>
+      </div>
+
+      <div class="col s5">
+        Burgers Devoured!
+        <br><br>
         {{#each burgers}}
           {{#if this.devoured}}
             <div class='burgerEaten'>
@@ -33,7 +44,7 @@
 <div class="row">
   <div class="col s12">
     <form action="/burgers" method="POST">
-      <input type="text" id="name" name="burger_name" placeholder="Devour A BURGER">
+      <input type="text" id="name" name="burger_name" placeholder="+BURGER to menu">
       <button type="submit" id="burger">+Burger</button>
     </form>
   </div>
