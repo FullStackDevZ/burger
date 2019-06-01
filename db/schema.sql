@@ -1,7 +1,7 @@
 ### Schema
-DROP DATABASE IF EXISTS burgers_db;
-CREATE DATABASE burgers_db;
-USE burgers_db;
+DROP DATABASE IF EXISTS suiecqslqtoyj9vy;
+CREATE DATABASE suiecqslqtoyj9vy;
+USE suiecqslqtoyj9vy;
 
 -- Create a burgers table with the required fields --
 CREATE TABLE burgers
