@@ -1,3 +1,93 @@
+html {
+  background-color: #FFC04C;
+}
+
+body {
+  width: 75%;
+ margin: 0 auto; 
+text-align: center;
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
+ background-color: white;
+}
+
+#cute_burger {
+  display: block;
+   margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 65px;
+  margin: 50px;
+}
+
+.burgerAvailable {
+  font-family: 'Crafty Girls', cursive;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+
+  border-radius: 25px;
+  width: 60%;
+  margin: 10px;
+  padding: 7px;
+  background-image: linear-gradient(lime, red,lime);
+  border: none;
+}
+
+.burgerAvailable:hover {
+  color: yellow;
+}
+
+.burgerEaten {
+  font-family: 'Crafty Girls', cursive;
+  color: black;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 7px;
+  width: 60%;
+  background-image: linear-gradient(red, rgb(173, 0, 173), orangered);
+}
+
+.burgerEaten:hover {
+  color: yellow;
+}
+h2 {
+   text-align: center;
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 40px;
+  margin: 50px;
+}
+
+.formContainer {
+  background-color: red;
+}
+
+.addBurgerButton {
+  font-family: 'Crafty Girls', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+
+  border-radius: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color: #FFC04C;
+  border: none;
+}
+
+.addBurgerButton:active {
+ background-color: #FFC04C;
+}
+
+
 li {
   padding: 5px;
   margin: 5px;
@@ -33,18 +123,21 @@ li {
 
 
 #burger {
-  font-size: 14px;
+  font-size: 37px;
   color: yellow;
-  padding: 3px;
+  padding: 15px;
   font-weight: bolder;
   cursor: pointer;
   outline: black;
-  background-color: orangered;
+  background-color: purple;
   border: yellow;
   border-style: ridge;
-  border-radius: 3px;
-  margin: 10px;
+  border-radius: 4px;
   position: center;
+}
+
+#burger:hover {
+  background-color: red;
 }
 
 body {
@@ -69,7 +162,7 @@ footer {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
