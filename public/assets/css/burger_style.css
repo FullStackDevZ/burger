@@ -5,8 +5,8 @@ html {
 .center {
   margin: auto;
   width: 20%;
-  border: 3px solid green;
-  padding: 10px;
+  border: 3px solid yellow;
+  padding: 7px;
 }
 
 body {
@@ -115,48 +115,51 @@ li {
   background-image: linear-gradient(purple, lime, purple);
   box-shadow: 10px 10px 10px black;
   width: 30%;
-  border-radius: 11px;
+  border-color: black;
+  border-radius: 12px;
   font-size: 20px;
   margin: 0 auto;
   /* display: inline-block; */
   text-align: center;
-  padding: 5px;
+  padding: 2px;
 }
 
 .devour:hover {
-  color: yellow;
+  color:red;
 }
 
 #burger {
   font-size: 30px;
   box-shadow: 10px 10px 10px black;
-  color: yellow;
-  padding: 15px;
+  background-image: linear-gradient(red, rgb(173, 0, 173), orangered);  color: yellow;
+  padding: 7px;
   font-weight: bolder;
   cursor: pointer;
   outline: black;
-  background-color: purple;
-  border: yellow;
+  border:black;
   border-style: ridge;
-  border-radius: 4px;
+  border-radius: 7px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   position: center;
 }
 
 #burger:hover {
-  background-color: red;
+  color: red;
 }
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: bolder;
   font-size: 26px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   line-height: 30px;
-  color: white;
-  background: url("../images/layout.jpg");
-  fill-opacity: initial;
+  color: yellow;
+  background: url("../images/burger-wallpaper.jpg");
   background-size: 100%;
+  height: auto;
+
 }
 
 footer {
