@@ -12,7 +12,7 @@
             <div>
               <form action="/burgers/" data-id="{{this.id}}" data-notEaten="true">
                 {{this.id}} - {{this.burger_name}}
-                <button type="submit" class='devour' id ="eatbutton" data-id="{{this.id}}" data-newDevoured="{{devoured}}"> 
+                <button type="submit" class="devour"  data-id="{{this.id}}"  data-newDevoured="{{this.devoured}}"> 
                   DEVOUR!
                 </button>
               </form>
@@ -28,9 +28,9 @@
         <br><br>
         {{#each burgers}}
           {{#if devoured}}
-            <div class='burgerEaten'>
-              <div>
-                {{burger_name}}
+            <div>
+              <div class='burgerEaten'>
+                {{this.burger_name}}
               </div>
             </div>
           {{/if}}

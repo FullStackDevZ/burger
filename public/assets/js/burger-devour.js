@@ -15,20 +15,21 @@ $(function() {
           data: newBurger
       }).then(function() {
           console.log("Added new burger");
-          // Reload the page to get the updated burger list.
+          // Reload to get the updated burger list.
           location.reload();
       });
   });
 
-  $("#eatbutton").on("click", function(event) {
+  $(".devour").on("click", function(event) {
       event.preventDefault();
 
       var id = $(this).data("id");
       var devouredState = {
+          devoured: $(".burgerEaten").val().trim,
           devoured: 1
       };
 
-      // Send the PUT request.
+      // PUT request.
       $.ajax("/api/burgers/" + id, {
           type: "PUT",
           data: devouredState
@@ -38,7 +39,7 @@ $(function() {
       });
   });
 
-  $(".trashburger").on("click", function(event) {
+  $(".delete").on("click", function(event) {
       event.preventDefault();
 
       var id = $(this).data("id");
