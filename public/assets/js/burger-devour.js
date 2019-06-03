@@ -25,7 +25,7 @@ $(function() {
 
       var id = $(this).data("id");
       var devouredState = {
-          devoured: $(".burgerEaten").val().trim,
+        burger_name: $(".burgerEaten").val().trim,
           devoured: 1
       };
 

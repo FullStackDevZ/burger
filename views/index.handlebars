@@ -11,7 +11,7 @@
           {{#unless devoured}}
             <div>
               <form action="/burgers/" data-id="{{this.id}}" data-notEaten="true">
-                {{this.id}} - {{this.burger_name}}
+                {{this.burger_name}}
                 <button type="submit" class="devour"  data-id="{{this.id}}"  data-newDevoured="{{this.devoured}}"> 
                   DEVOUR!
                 </button>
