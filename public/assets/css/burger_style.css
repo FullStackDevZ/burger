@@ -107,6 +107,10 @@ li {
   font-weight: bold;
 }
 
+.menu {
+  : url("../images/menu.jpg");
+}
+
 .create-update-form {
   padding: 5px;
   margin: 5px;
@@ -118,7 +122,7 @@ li {
 }
 
 .devour {
-  background-image: linear-gradient(purple,yellow, purple);
+  background-image: linear-gradient(rgb(68, 0, 68),orangered, rgb(71, 0, 71));
   box-shadow: 10px 10px 10px black;
   width: 30%;
   border-color: black;
