@@ -19,6 +19,12 @@ text-align: center;
  background-color: white;
 }
 
+input {
+  box-shadow: 10px 10px 10px black;
+  text-align: center;
+}
+
+
 h1 {
   text-align: center;
   font-family: 'Fontdiner Swanky', cursive;
@@ -112,11 +118,12 @@ li {
 }
 
 .devour {
-  background-image: linear-gradient(purple, lime, purple);
+  background-image: linear-gradient(purple,yellow, purple);
   box-shadow: 10px 10px 10px black;
   width: 30%;
   border-color: black;
   border-radius: 12px;
+  color: yellow;
   font-size: 20px;
   margin: 0 auto;
   /* display: inline-block; */
@@ -155,7 +162,7 @@ body {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   line-height: 30px;
-  color: yellow;
+  color: white;
   background: url("../images/burger-wallpaper.jpg");
   background-size: 100%;
   height: auto;
